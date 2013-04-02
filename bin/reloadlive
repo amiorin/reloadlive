@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+$LOAD_PATH.unshift File.dirname(__FILE__) + "/../lib"
+
+require "reloadlive/options"
+require 'reloadlive'
+
+include Reloadlive
+
+Rack::Handler::Thin.run builder(options['port']), :Port => options['port'], :Host => options['bind']

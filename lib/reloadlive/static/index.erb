@@ -1,0 +1,21 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <title><%= @last[:title] %></title>
+  <link rel="stylesheet" type="text/css" href="/_reloadlive/style.css" />
+  <script src="/_reloadlive/client.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    var client = new Faye.Client('http://localhost:<%= @port %>/faye');
+    client.subscribe('/message', function(message) {
+      document.body.innerHTML = message.body;
+      document.title = message.title;
+    });
+  </script>
+</head>
+<body>
+<%= @last[:body] %>
+</body>
+</html>
+
