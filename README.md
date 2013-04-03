@@ -1,4 +1,4 @@
-# Reloadlive
+# Reloadlive [![Gem Version](https://badge.fury.io/rb/reloadlive.png)](http://badge.fury.io/rb/reloadlive) [![Code Climate](https://codeclimate.com/github/amiorin/reloadlive.png)](https://codeclimate.com/github/amiorin/reloadlive)
 Reloadlive is a command line tool that renders your markup files in your
 browser without hitting the reload button.
 
@@ -45,6 +45,9 @@ prints the help
 * Internal wiki links don't work yet (to be done).
 * The user cannot use his own layout (to be done).
 * The current layout is not responsive (to be fixed).
+
+## Links
+* [The Zen of Wiki with Gollum](http://albertomiorin.com/blog/2013/03/25/the-zen-of-wiki-with-gollum/)
 
 ## Credits
 * [Gollum][0]

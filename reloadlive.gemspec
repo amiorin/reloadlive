@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/amiorin/reloadlive"
   spec.license       = "MIT"
 
-  spec.files         = `git ls-files`.split($/)
+  spec.files         = `git ls-files`.split($/) - ["demo.gif"]
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
@@ -24,11 +24,14 @@ Gem::Specification.new do |spec|
   spec.add_dependency "listen"
   spec.add_dependency "github-markup"
   spec.add_dependency "github-markdown"
-  spec.add_dependency "pygments.rb", "~> 0.4.2"
+  spec.add_dependency "pygments.rb"
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
   spec.add_development_dependency "pry"
   spec.add_development_dependency "pry-debugger"
   spec.add_development_dependency "guard-rspec"
+  spec.add_development_dependency "rb-inotify"
+  spec.add_development_dependency "rb-fsevent"
+  spec.add_development_dependency "rb-fchange"
 end
