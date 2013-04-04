@@ -1,4 +1,4 @@
-# Reloadlive [![Gem Version](https://badge.fury.io/rb/reloadlive.png)](http://badge.fury.io/rb/reloadlive) [![Code Climate](https://codeclimate.com/github/amiorin/reloadlive.png)](https://codeclimate.com/github/amiorin/reloadlive)
+# Reloadlive [![Gem Version](https://badge.fury.io/rb/reloadlive.png)](http://badge.fury.io/rb/reloadlive) [![Dependency Status](https://gemnasium.com/amiorin/reloadlive.png)](https://gemnasium.com/amiorin/reloadlive) [![Code Climate](https://codeclimate.com/github/amiorin/reloadlive.png)](https://codeclimate.com/github/amiorin/reloadlive)
 Reloadlive is a command line tool that renders your markup files in your
 browser without hitting the reload button.
 
@@ -7,7 +7,7 @@ You need only to save them. The last saved file will be rendered.
 If the extension of the file is unknown, the content will be rendered in the
 browser without modification.
 
-![demo.gif](demo.gif)
+![demo.gif](https://raw.github.com/amiorin/reloadlive/master/demo.gif)
 
 ## Markups
 
@@ -59,6 +59,7 @@ prints the help
 * [Listen][6]
 * [instant-markdonw-d][7]
 * [LiveReload][8]
+* [Pygments][9]
 
 ## Contributing
 
@@ -77,3 +78,4 @@ prints the help
 [6]: https://github.com/guard/listen
 [7]: https://github.com/suan/instant-markdown-d
 [8]: http://livereload.com/
+[9]: http://pygments.org/
