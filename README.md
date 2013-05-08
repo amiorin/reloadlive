@@ -1,4 +1,4 @@
-# Reloadlive [![Gem Version](https://badge.fury.io/rb/reloadlive.png)](http://badge.fury.io/rb/reloadlive) [![Dependency Status](https://gemnasium.com/amiorin/reloadlive.png)](https://gemnasium.com/amiorin/reloadlive) [![Code Climate](https://codeclimate.com/github/amiorin/reloadlive.png)](https://codeclimate.com/github/amiorin/reloadlive)
+# Reloadlive [![Gem Version](https://badge.fury.io/rb/reloadlive.png)](http://badge.fury.io/rb/reloadlive) [![Dependency Status](https://gemnasium.com/amiorin/reloadlive.png)](https://gemnasium.com/amiorin/reloadlive) [![Code Climate](https://codeclimate.com/github/amiorin/reloadlive.png)](https://codeclimate.com/github/amiorin/reloadlive) [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/amiorin/reloadlive/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 Reloadlive is a command line tool that renders your markup files in your
 browser without hitting the reload button.
 
