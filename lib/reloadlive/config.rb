@@ -48,7 +48,7 @@ module Reloadlive
   def thread
     t = Thread.new do
       client = Faye::Client.new("http://localhost:#{options['port']}/faye")
-      listener = Listen::MultiListener.new(*dirs) do |modified, added, removed|
+      listener = Listen::Listener.new(*dirs) do |modified, added, removed|
         filename = modified.first ? modified.first    :
                       added.first ? added.first       :
                                     last_file_changed
