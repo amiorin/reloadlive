@@ -18,20 +18,17 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "sinatra"
-  spec.add_dependency "thin"
-  spec.add_dependency "faye"
-  spec.add_dependency "listen"
-  spec.add_dependency "github-markup"
-  spec.add_dependency "github-markdown"
-  spec.add_dependency "pygments.rb"
+  spec.add_dependency "sinatra",         "~> 1.4.3"
+  spec.add_dependency "thin",            "~> 1.5.1"
+  spec.add_dependency "faye",            "~> 0.8.9"
+  spec.add_dependency "listen",          "~> 1.1.6"
+  spec.add_dependency "github-markup",   "~> 0.7.5"
+  spec.add_dependency "github-markdown", "~> 0.5.3"
+  spec.add_dependency "pygments.rb",     "~> 0.5.0"
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
   spec.add_development_dependency "pry"
   spec.add_development_dependency "pry-debugger"
   spec.add_development_dependency "guard-rspec"
-  spec.add_development_dependency "rb-inotify"
-  spec.add_development_dependency "rb-fsevent"
-  spec.add_development_dependency "rb-fchange"
 end
